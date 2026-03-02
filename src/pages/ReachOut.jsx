@@ -27,7 +27,7 @@ export default function ReachOut() {
             {" "}
             <div className="absolute w-20 h-20 bottom-13 left-90 -bottom-6 left-0 z-[9999]">
               <img
-                src="./blob2.png"
+                src="/blob2.png"
                 alt="blob"
                 className="w-full h-full object-contain animate-[slowRotate_10s_linear_infinite]"
               />
