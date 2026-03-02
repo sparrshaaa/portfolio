@@ -17,7 +17,7 @@ export default function Home() {
         <h4 className="text-lg sm:text-xl mb-6">Hey there, my name is 👋</h4>
 
         <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold mb-10 leading-tight">
-          QWERYU DD
+          Sparshaa
         </h1>
 
         <p className="text-base sm:text-lg md:text-xl mb-8 max-w-2xl text-[#4a4e69]">

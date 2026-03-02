@@ -12,7 +12,7 @@ export default function Hero() {
       style={fontStyle}
     >
       <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-white leading-tight">
-        Hello, I'm <span className="text-[#778da9]">Xyzabcc BG.</span>
+        Hello, I'm <span className="text-[#778da9]">Sparshaa</span>
       </h1>
 
       <h2 className="mt-4 text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-white">
