@@ -23,16 +23,7 @@ export default function ReachOut() {
 
         <div className="max-w-5xl mx-auto mt-20">
           <h1 className="text-7xl font-bold mb-4">Reach Out</h1>
-          <div className="relative">
-            {" "}
-            <div className="absolute w-20 h-20 bottom-13 left-90 -bottom-6 left-0 z-[9999]">
-              <img
-                src="/blob2.png"
-                alt="blob"
-                className="w-full h-full object-contain animate-[slowRotate_10s_linear_infinite]"
-              />
-            </div>
-          </div>
+
           <p className="text-[#bfc0c0] text-lg mb-16 max-w-3xl">
             Whether you have a project idea, collaboration opportunity, or just
             want to connect — I’d love to hear from you.
@@ -86,6 +77,16 @@ export default function ReachOut() {
               <span className="text-2xl font-medium group-hover:underline">
                 email me
               </span>
+              <div className="relative">
+                {" "}
+                <div className="absolute w-20 h-20  bottom-50 z-[9999]">
+                  <img
+                    src="/blob2.png"
+                    alt="blob"
+                    className="w-full h-full object-contain animate-[slowRotate_10s_linear_infinite]"
+                  />
+                </div>
+              </div>
             </a>
           </div>
         </div>

@@ -49,16 +49,7 @@ export default function About() {
             <div className="absolute left-4 top-0 bottom-0 w-px bg-white"></div>
 
             <div className="absolute left-4 top-1  w-5 h-5 bg-white rounded-full -translate-x-1/2"></div>
-            <div className="relative">
-              {" "}
-              <div className="absolute w-20 h-20 top-0 bottom-10 right-120  z-[9999]">
-                <img
-                  src="/blob2.png"
-                  alt="blob"
-                  className="w-full h-full object-contain animate-[slowRotate_10s_linear_infinite]"
-                />
-              </div>
-            </div>
+
             <div className="pl-12 mb-8">
               <h1 className="text-2xl sm:text-3xl    font-serif italic">
                 Education
@@ -66,6 +57,14 @@ export default function About() {
             </div>
 
             <div className="relative pl-12">
+              <div className="absolute w-16 sm:w-20 h-16 sm:h-20 bottom-[110%] right-[73%] z-0">
+                <img
+                  src="/blob2.png"
+                  alt="blob"
+                  className="w-full h-full object-contain animate-[slowRotate_10s_linear_infinite]"
+                />
+              </div>
+
               <div className="absolute left-4 top-2  w-3 h-3 bg-white rounded-full -translate-x-1/2"></div>
               <h3 className="text-lg font-semibold   ">
                 SJB Institute Of Technology
@@ -119,7 +118,7 @@ export default function About() {
           </div>
           <div className="relative">
             {" "}
-            <div className="absolute w-20 h-20 bottom-1 right-170 z-[9999]">
+            <div className="absolute sm:w-20 sm:h-20 bottom-0 right-[94%] z-[9999]">
               <img
                 src="/blob2.png"
                 alt="blob"

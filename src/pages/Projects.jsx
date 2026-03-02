@@ -9,15 +9,16 @@ export default function Projects() {
     {
       title: "E-commerce Website for Pet Shop",
       description:
-        "A full stack task management app with authentication and CRUD operations.",
+        "A streamlined online marketplace designed to provide a seamless shopping experience for pet owners, from browsing premium supplies to secure checkout.",
       tech: ["JavaScript", "PHP", "MySQL", "HTML", "CSS", "BootStrap"],
       github: "#",
       live: "#",
+      img: "/petshop.png",
     },
     {
       title: "Travel Itinerary Planner with Weather Integration",
       description:
-        "Personal portfolio built using React and Tailwind CSS with smooth animations.",
+        "An intelligent trip organizer that simplifies vacation logistics by syncing personalized schedules with live weather updates and interactive navigation.",
       tech: [
         "Python",
         "Django",
@@ -27,14 +28,16 @@ export default function Projects() {
       ],
       github: "#",
       live: "#",
+      img: "/travelit.png",
     },
     {
       title: "Flappy Bird Clone",
       description:
-        "Real-time weather app using public API with dynamic UI updates.",
+        "A classic arcade-style game that challenges players with physics-based navigation and high-score tracking within a smooth desktop environment.",
       tech: ["Java", "Swing", "JFrame"],
       github: "#",
       live: "#",
+      img: "/flappybird.png",
     },
   ];
 
@@ -59,8 +62,8 @@ export default function Projects() {
         </div>
 
         <p className="text-[#2d3142]/70 text-lg max-w-5xl mb-16">
-          A collection of projects showcasing my skills in frontend, backend,
-          and database development.
+          A curated showcase of my latest development projects, focusing on
+          scalable web applications and engaging user interfaces.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-10">
@@ -69,6 +72,12 @@ export default function Projects() {
               key={index}
               className="bg-[#2d3142]/80 p-6 rounded-2xl hover:scale-105 transition duration-300 border border-black/10"
             >
+              <div className="relative">
+                <img
+                  src={project.img}
+                  className="w-full rounded-xl [mask-image:linear-gradient(to_bottom,black_70%,transparent_100%)]"
+                />
+              </div>
               <h2 className="text-2xl font-semibold text-white mb-10">
                 {project.title}
               </h2>

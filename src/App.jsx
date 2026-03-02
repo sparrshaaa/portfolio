@@ -13,8 +13,7 @@ export default function App() {
   const showCursor =
     location.pathname === "/about" ||
     location.pathname === "/projects" ||
-    location.pathname === "/reach" ||
-    location.pathname === "/";
+    location.pathname === "/reach";
 
   return (
     <>
