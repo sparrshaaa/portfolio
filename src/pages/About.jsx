@@ -112,7 +112,7 @@ export default function About() {
               <div className="absolute left-4 top-2  w-3 h-3 bg-white rounded-full -translate-x-1/2"></div>
               <h3 className="text-2xl mb-4">Database</h3>
               <div className="flex flex-wrap gap-4 mb-8">
-                <Skill color="bg-red-200" name="Figma" />
+                <Skill color="bg-red-200" name="MySQL" />
               </div>
             </div>
           </div>
