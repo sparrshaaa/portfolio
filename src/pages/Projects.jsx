@@ -1,4 +1,4 @@
-import { Github, Projector } from "lucide-react";
+import { Github, Link, Projector } from "lucide-react";
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 export default function Projects() {
@@ -11,7 +11,7 @@ export default function Projects() {
       description:
         "A streamlined online marketplace designed to provide a seamless shopping experience for pet owners, from browsing premium supplies to secure checkout.",
       tech: ["JavaScript", "PHP", "MySQL", "HTML", "CSS", "BootStrap"],
-      github: "#",
+      github: "https://github.com/sparrshaaa/pet-shop-e-commerce",
       live: "#",
       img: "/petshop.png",
     },
@@ -26,8 +26,8 @@ export default function Projects() {
         "Google Maps API",
         "Open Weather API",
       ],
-      github: "#",
-      live: "#",
+      github: "https://github.com/sparrshaaa/travel_itinerary_app",
+      live: "https://sparrshaaa.pythonanywhere.com/",
       img: "/travelit.png",
     },
     {
@@ -35,7 +35,7 @@ export default function Projects() {
       description:
         "A classic arcade-style game that challenges players with physics-based navigation and high-score tracking within a smooth desktop environment.",
       tech: ["Java", "Swing", "JFrame"],
-      github: "#",
+      github: "https://github.com/sparrshaaa/FlappyBirdJava",
       live: "#",
       img: "/flappybird.png",
     },
@@ -101,6 +101,12 @@ export default function Projects() {
                   className="px-2 py-2 bg-white text-black rounded-full text-sm"
                 >
                   <Github />
+                </a>
+                <a
+                  href={project.live}
+                  className="px-2 py-2 bg-white text-black rounded-full text-sm"
+                >
+                  <Link />
                 </a>
               </div>
             </div>
