@@ -67,11 +67,13 @@ export default function About() {
 
               <div className="absolute left-4 top-2  w-3 h-3 bg-white rounded-full -translate-x-1/2"></div>
               <h3 className="text-lg font-semibold   ">
-                SJB Institute Of Technology
+                {" "}
+                Bachelor of Engineering in Computer Science
               </h3>
 
               <p className="text-sm    mt-1 max-w-md">
-                2022 - 26 | Final year student | Pursuing BE in Computer Science
+                SJB Institute Of Technology<br></br> Academic year 2022 - 2026{" "}
+                <br></br> CGPA - 8.65
               </p>
             </div>
           </div>
@@ -89,7 +91,7 @@ export default function About() {
             {/* Languages */}
             <div className="relative pl-12">
               <div className="absolute left-4 top-2  w-3 h-3 bg-white rounded-full -translate-x-1/2"></div>
-              <h3 className="text-2xl mb-4">Languages</h3>
+              <h3 className="text-2xl mb-4  ">Programming Languages</h3>
               <div className="flex flex-wrap gap-4 mb-8">
                 <Skill color="bg-yellow-200" name="Java" />
                 <Skill color="bg-blue-200" name="JavaScript" />
@@ -113,6 +115,15 @@ export default function About() {
               <h3 className="text-2xl mb-4">Database</h3>
               <div className="flex flex-wrap gap-4 mb-8">
                 <Skill color="bg-red-200" name="MySQL" />
+              </div>
+            </div>
+            <div className="relative pl-12">
+              <div className="absolute left-4 top-2  w-3 h-3 bg-white rounded-full -translate-x-1/2"></div>
+              <h3 className="text-2xl mb-4">Tools & Technologies</h3>
+              <div className="flex flex-wrap gap-4 mb-8">
+                <Skill color="bg-yellow-200" name="Git" />
+                <Skill color="bg-blue-200" name="Github" />
+                <Skill color="bg-green-200" name="Figma" />
               </div>
             </div>
           </div>
@@ -142,7 +153,8 @@ export default function About() {
                 Full Stack Developer Intern
               </p>
               <p className="text-gray-400">
-                Built responsive web apps using React & Ext.js.
+                Inventech Info Solutions Pvt Ltd. <br></br> February 2026 - May
+                2026
               </p>
             </div>
           </div>
