@@ -29,7 +29,7 @@ export default function Sidebar() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/14rzjKB2kyW9cjEN-dSwmOpDO-rgTS90t/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ZHjhuXoStQoq7QIET-NvpWFDQbueUaD1/view?usp=sharing"
             className={linkStyle}
           >
             <FileCheck2 size={22} />

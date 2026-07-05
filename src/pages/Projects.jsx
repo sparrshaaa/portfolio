@@ -39,6 +39,15 @@ export default function Projects() {
       live: "#",
       img: "/flappybird.png",
     },
+    {
+      title: "SecureShare",
+      description:
+        "A secure file-sharing platform that enables PIN-protected file access with a modern, responsive interface, ensuring reliable and seamless file management.",
+      tech: ["React", "Tailwind CSS", "SQLite", "REST API"],
+      github: "https://github.com/sparrshaaa/SecureShare",
+      live: "#",
+      img: "/secureshare.png",
+    },
   ];
 
   return (

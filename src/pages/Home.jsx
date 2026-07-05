@@ -15,22 +15,27 @@ export default function Home() {
       <Navbar />
       <ConnectingDots />
 
-      <div className="relative z-10 max-w-6xl mx-auto px-6 sm:px-10 lg:px-20 py-20 grid md:grid-cols-2 items-center gap-12">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 sm:px-10 lg:px-20 py-15 grid md:grid-cols-2 items-center gap-10">
         <div>
-          <h4 className="text-lg sm:text-xl mb-6">Hey there, my name is 👋</h4>
+          <h4 className="text-lg sm:text-xl mb-1" style={{ color: "#4a4e69" }}>
+            Hey there, my name is 👋
+          </h4>
 
-          <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold mb-10 leading-tight">
-            Sparshaa
+          <h1 className="text-4xl sm:text-6xl md:text-6xl lg:text-7xl  mb-10 leading-tight">
+            Sparsha U K
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl mb-8 max-w-2xl text-[#4a4e69]">
-            I design and develop clean, efficient, and user-focused
-            applications. Passionate about solving real-world problems using
-            modern technologies.
+            Computer Science graduate passionate about building responsive and
+            user-focused web applications.
+            <br /> I enjoy creating modern interfaces with React and developing
+            efficient backend solutions using Java while continuously learning
+            new technologies.
           </p>
 
-          <h4 className="text-lg sm:text-xl font-medium">
-            Full Stack Developer | Java & React
+          <h4 className="text-lg sm:text-xl font-medium text-[#4a4e69]  ">
+            📍 Bengaluru, India <br />
+            🎓 BE Computer Science | CGPA 8.65
           </h4>
         </div>
 
@@ -38,7 +43,7 @@ export default function Home() {
           <img
             src="/homee.png"
             alt="Home Illustration"
-            className="w-[400px] sm:w-[420px] md:w-[520px] lg:w-[620px] object-contain"
+            className="w-[350px] sm:w-[320px] md:w-[420px] lg:w-[520px] object-contain"
           />
         </div>
       </div>
