@@ -27,7 +27,7 @@ export default function Hero() {
         className="mt-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl text-white"
         style={fontStyleB}
       >
-        I love creating clean, seamless, and user-first designs.
+        I love creating clean, seamless, and user-friendly designs.
       </h2>
       <Link to="/home">
         <button className="mt-8 bg-white text-[#2d3142] px-6 py-3 rounded-xl font-medium hover:bg-[#778da9] hover:text-white transition duration-300">
