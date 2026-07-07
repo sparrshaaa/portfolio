@@ -81,7 +81,7 @@ export default function Home() {
 
           {/* RIGHT */}
           <div className="relative flex justify-end overflow-visible">
-            <div className="absolute -right-44 top-1/2 -translate-y-1/2 w-[1000px] h-[900px]">
+            <div className="absolute -right-44 top-1/2 -translate-y-1/2 w-[900px] h-[900px]">
               <PolygonHero />
             </div>
           </div>
