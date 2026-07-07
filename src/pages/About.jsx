@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import ConnectingDots from "../components/ConnectingCots";
 import { motion } from "framer-motion";
 
 export default function About() {
@@ -26,6 +27,7 @@ export default function About() {
         style={fontStyle}
       >
         <Navbar />
+        <ConnectingDots />
 
         <h1 className="text-7xl font-bold mb-6">About</h1>
 

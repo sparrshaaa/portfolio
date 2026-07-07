@@ -8,8 +8,8 @@ export default function ConnectingDots() {
     const ctx = canvas.getContext("2d");
 
     let particles = [];
-    const particleCount = 80;
-    const maxDistance = 120;
+    const particleCount = 120;
+    const maxDistance = 80;
 
     const resize = () => {
       canvas.width = window.innerWidth;
