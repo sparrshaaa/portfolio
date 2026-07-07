@@ -30,7 +30,7 @@ export default function Home() {
             </span>
 
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-semibold leading-tight mb-2">
-              Sparsha U K
+              Sparsha UK
             </h1>
 
             <p className="text-lg leading-8 text-[#4f5d75] max-w-xl ">
