@@ -29,11 +29,11 @@ export default function Home() {
               👋 Computer Science Graduate
             </span>
 
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold leading-tight mb-2">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-semibold leading-tight mb-2">
               Sparsha U K
             </h1>
 
-            <p className="text-lg leading-8 text-[#4f5d75] max-w-xl">
+            <p className="text-lg leading-8 text-[#4f5d75] max-w-xl ">
               An aspiring Full Stack Developer based in Bengaluru, India.
               <br /> I build responsive, scalable and user-focused web
               applications using React, Java and MySQL. <br />
