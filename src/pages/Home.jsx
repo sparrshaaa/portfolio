@@ -29,7 +29,7 @@ export default function Home() {
               👋 Computer Science Graduate
             </span>
 
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-semibold leading-tight mb-2">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight mb-2">
               Sparsha UK
             </h1>
 
